@@ -1,16 +1,58 @@
 @charset "utf-8";
+
+
+
 :root{
   --cor01: #D3FF00;
   --cor02: #7926A2;
-  --cor03: #1B2C50;
+  --cor03: #42445A;
   
   --cor001: #82971E;
   --cor002: #7926A2;
   --cor003: #3F7AF1;
 }
+midia{
+  
+}
 
 header{
-  background-image: linear-gradient(to bottom, var(--cor003), var(--cor03));
+  background-image: linear-gradient(to bottom, var(--cor003), #4A54C1);
   padding: 11px;
   color: white;
+}
+
+nav{
+  background-image: linear-gradient(to bottom, #4A54C1, var(--cor03));
+
+
+}
+nav a{
+  color: var(--cor01);
+  border: 3px solid black;
+  display: block;
+
+  width: 150px;
+  
+  
+}
+
+main{
+  background-color: whitesmoke;
+  min-width: 380px;
+  max-width: 750px;
+  margin: auto;
+  text-align: justify;
+  font-family: monospace;
+}
+
+main h1{
+  
+}
+
+footer{
+  background-color: var(--cor003);
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 80%;
 }
